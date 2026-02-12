@@ -1,26 +1,26 @@
 class Xcli < Formula
   desc "X (Twitter) API CLI tool"
   homepage "https://github.com/hulryung/xcli"
-  version "1.1.0"
+  version "1.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/hulryung/xcli/releases/download/v1.1.0/xcli-x86_64-apple-darwin.tar.gz"
-      sha256 "7264bc8a767558f5c633a06387542b82d8e9c1c7a40bd5a5f3a34a718bc6f6e5"
+      url "https://github.com/hulryung/xcli/releases/download/v1.1.1/xcli-x86_64-apple-darwin.tar.gz"
+      sha256 "c91bf99c07c8f8e0cd0806f4e7e6d1685d77c0bde50beaf3bd5855da520826fe"
     else
-      url "https://github.com/hulryung/xcli/releases/download/v1.1.0/xcli-aarch64-apple-darwin.tar.gz"
-      sha256 "0a2f4b24b0094557b34a03564d9b8bc08ba3078192cd0baf201864697ef6a3ba"
+      url "https://github.com/hulryung/xcli/releases/download/v1.1.1/xcli-aarch64-apple-darwin.tar.gz"
+      sha256 "060072807dd5286f7d37948a4463e3051e1e7b2243446a9626a496a0a49390b3"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/hulryung/xcli/releases/download/v1.1.0/xcli-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "314c4be8a8203bf5d84e4937e65ff7f2e0752ad6e14344722a261fdca3279ac6"
+      url "https://github.com/hulryung/xcli/releases/download/v1.1.1/xcli-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "26262ffd0efc75dd4e7ba663388e79eb90be2845dfae01ab2a451789d80af890"
     else
-      url "https://github.com/hulryung/xcli/releases/download/v1.1.0/xcli-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "ee393504ade7f525f554075b6e85f30ad2905da56e92e8ea55efcb89605405d1"
+      url "https://github.com/hulryung/xcli/releases/download/v1.1.1/xcli-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "5f74ebdfe374bec07bd8b37003cc5524228e1986941bd0df9e620191a38fd597"
     end
   end
 
