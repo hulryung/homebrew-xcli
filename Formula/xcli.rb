@@ -10,7 +10,7 @@ class Xcli < Formula
       sha256 "aa9d247ceef8f13c2bafcb3bcd5dd86c9bf26103690059fd748957d1510562c8"
     else
       url "https://github.com/hulryung/xcli/releases/download/v1.2.0/xcli-aarch64-apple-darwin.tar.gz"
-      sha256 "5302bc3a9e8856a8325bf58184b28d53aa0a0e3c1670776c79ef5e505d94c3f9"
+      sha256 "67ede3470b081a9edbb11d18dcc6f7900e21545712787e467cc67b4d717c644d"
     end
   end
 
